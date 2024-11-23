@@ -28,9 +28,9 @@ from .const import (
 
 
 # cover states.
-STATE_OPENING = "opening"
-STATE_CLOSING = "closing"
-STATE_STOPPED = "stopped"
+STATE_OPENING = "open"
+STATE_CLOSING = "close"
+STATE_STOPPED = "stop"
 STATE_SET_CMD = "moving"
 STATE_SET_OPENING = "set_opeing"
 STATE_SET_CLOSING = "set_closing"
